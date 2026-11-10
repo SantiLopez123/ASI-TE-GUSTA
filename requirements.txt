@@ -1,0 +1,10 @@
+# ASI TE GUSTA - dependencias de ejecucion (probado en Windows 11 + Python 3.11)
+# Limites verificados: Streamlit 1.50 y 1.65, OpenCV 4.14 y 5.0 (pasan las pruebas automaticas).
+# Versiones exactas del equipo de desarrollo: requirements.lock.txt
+streamlit>=1.50,<2
+opencv-python-headless>=4.10,<6
+numpy>=1.26
+pandas>=2.1
+plotly>=5.20
+pillow>=10.0
+psutil>=5.9            # lanzador de Windows: identificar/cerrar solo los procesos de esta app
